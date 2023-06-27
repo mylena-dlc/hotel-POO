@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.paragraphe {
+    padding: 0 0 8px 50px;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+/* 1ère Section */
+
+.hotel-nom-card {
+    font-size: 1.5rem !important;
+    font-weight: 400 !important;
+    margin: 0 !important;
+    padding-bottom: 10px;
+}
+
+.card {
+    width: 20rem !important;
+    border-radius: 20px !important;
+    margin: 100px 0 100px 100px;
+}
+
+.card-body>a {
+    text-decoration: none;
+    color: rgb(76, 73, 210) !important;
+}
+
+/* 2ème Section */
+
+.hotel-nom {
+    font-size: 1.5rem !important;
+    font-weight: 400 !important;
+    margin: 0 !important;
+    padding: 0 0 0px 50px;
+}
+
+.reservations {
+    background-color: rgb(99, 186, 99);
+    width: 150px;
+    height: 25px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-transform: uppercase;
+    margin: 0 0 8px 50px !important;
+}
+
+/* 4ème Section */
+
+.titre-tableau {
+    font-size: 1.5rem !important;
+    font-weight: 400 !important;
+    margin: 0 !important;
+    padding: 0 0 20px 50px;
+}
+
+em {
+    font-style: normal;
+    font-weight: 700;
+}
+
+table {
+    width: 80%; 
+    font-size: 1rem;
+    margin-left: 50px !important;
+}
+
+td, th {
+    padding: 10px;
+}
+
+tbody tr:nth-child(odd) { /* Ligne impaire */
+    background-color: #eeeaea;
+  }
+  
+  tbody tr:nth-child(even) { /* Ligne paire */
+    background-color: #fefcfc;
+  }
+
+  .disponible-tableau {
+    background-color:  rgb(99, 186, 99);
+    width: 60%;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+  }
+
+  .reservee-tableau {
+    background-color:  rgb(198, 44, 44);
+    width: 60%;
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+  }
